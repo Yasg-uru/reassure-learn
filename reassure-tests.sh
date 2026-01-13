@@ -16,4 +16,5 @@ yarn reassure --baseline
 git switch --detach -
 
 yarn install
-yarn reassure --branch
+# Run reassure for current measurements and comparisons
+yarn reassure
